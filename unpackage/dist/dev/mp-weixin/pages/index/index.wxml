@@ -1,0 +1,1 @@
+<view class="paddingView"><image class="bannerPic" src="../../static/index/banner.png" mode></image><send vue-id="8dd740cc-1" bind:__l="__l"></send></view>

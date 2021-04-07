@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "我要寄件",
+  "usingComponents": {
+    "send": "/components/index/send"
+  }
+}

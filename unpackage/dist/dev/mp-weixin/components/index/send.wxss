@@ -1,0 +1,341 @@
+.form {
+  background-color: #FFFFFF;
+  -webkit-border-radius: 12rpx;
+          border-radius: 12rpx;
+  overflow: hidden;
+  margin-top: 20rpx;
+}
+.form .title {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  height: 90rpx;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.form .title .block {
+  width: 8rpx;
+  height: 36rpx;
+  background-color: #28A032;
+}
+.form .title .lable {
+  margin-left: 24rpx;
+  color: #222222;
+  font-size: 32rpx;
+  font-weight: bold;
+}
+.form .title .help {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  margin-right: 24rpx;
+  margin-left: auto;
+}
+.form .title .help .helpIcon {
+  width: 28rpx;
+  height: 28rpx;
+}
+.form .title .help .label {
+  margin-left: 12rpx;
+  font-size: 28rpx;
+  color: #28A032;
+  font-weight: bold;
+}
+.form .title .right {
+  margin-right: 32rpx;
+  margin-left: auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-border-radius: 100px;
+          border-radius: 100px;
+  overflow: hidden;
+  width: 190rpx;
+  background-color: #F3F3F3;
+}
+.form .title .right .item {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  background-color: #F3F3F3;
+  height: 48rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  font-size: 26rpx;
+  color: #666666;
+}
+.form .title .right .act {
+  color: #FFFFFF;
+  background-color: #28A032;
+  -webkit-border-radius: 100px;
+          border-radius: 100px;
+}
+.form .inputView {
+  padding: 0 30rpx;
+}
+.form .inputView .item {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  height: 82rpx;
+  border-top: 1px solid #F7F8FA;
+}
+.form .inputView .item .left {
+  font-size: 28rpx;
+  color: #999999;
+  font-weight: bold;
+}
+.form .inputView .item .input {
+  font-size: 28rpx;
+  color: #EBEBEB;
+  width: 224rpx;
+  height: 40rpx;
+  font-weight: bold;
+  line-height: 40rpx;
+  margin-left: 60rpx;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+}
+.form .inputView .item .image {
+  width: 16rpx;
+  height: 32rpx;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.form .inputView .item .imageRotate {
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+  width: 16rpx;
+  height: 32rpx;
+}
+.service {
+  margin-top: 20rpx;
+  overflow: hidden;
+  -webkit-border-radius: 12rpx;
+          border-radius: 12rpx;
+  background-color: #FFFFFF;
+}
+.service .serviceIcon {
+  width: 382rpx;
+  height: 106rpx;
+  display: block;
+  margin: 0 auto;
+  margin-top: 32rpx;
+  margin-bottom: 22rpx;
+}
+.service .serviceItem {
+  border: 1px solid #EBEBEB;
+}
+.service .serviceItem .serviceTitle {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  padding: 0 20rpx;
+  height: 100rpx;
+}
+.service .serviceItem .serviceTitle .circle {
+  width: 12rpx;
+  height: 12rpx;
+  -webkit-border-radius: 12rpx;
+          border-radius: 12rpx;
+  background-color: #28A032;
+}
+.service .serviceItem .serviceTitle .lable {
+  font-size: 28rpx;
+  margin-left: 16rpx;
+  color: #222222;
+}
+.service .serviceItem .serviceTitle .image {
+  width: 16rpx;
+  height: 32rpx;
+  margin-left: auto;
+}
+.end {
+  margin-top: 20rpx;
+  margin-bottom: 60rpx;
+}
+.end .endImage {
+  width: 694rpx;
+  height: 172rpx;
+  display: block;
+  margin: 0 auto;
+}
+.helpItem {
+  border-top: 1px solid #F7F8FA;
+  padding-bottom: 22rpx;
+}
+.helpItem .top {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.helpItem .top .l {
+  font-size: 28rpx;
+  color: #222222;
+  font-weight: bold;
+}
+.helpItem .top .r {
+  margin-left: auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.helpItem .top .r .ctrView {
+  padding: 22rpx;
+}
+.helpItem .top .r .ctrView .icon {
+  width: 32rpx;
+  height: 32rpx;
+}
+.helpItem .top .r .num {
+  font-size: 28rpx;
+  color: #222222;
+}
+.helpItem .bottom {
+  font-size: 24rpx;
+  color: #999999;
+}
+.helpItem .topView {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.helpItem .topView .left .t {
+  font-size: 28rpx;
+  color: #999999;
+  font-weight: bold;
+}
+.helpItem .topView .left .b {
+  margin-top: 12rpx;
+  font-size: 24rpx;
+  color: #999999;
+}
+.helpItem .topView .upload {
+  padding: 28rpx;
+  margin-right: 38rpx;
+  margin-left: auto;
+}
+.helpItem .topView .upload .uploadIcon {
+  width: 80rpx;
+  height: 80rpx;
+}
+.userMsg {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  padding: 20rpx 30rpx;
+  border-top: 1px solid #F7F8FA;
+}
+.userMsg .left {
+  font-size: 28rpx;
+  font-weight: bold;
+  color: #999999;
+  width: 200rpx;
+}
+.userMsg .right {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  height: 100%;
+}
+.userMsg .right .input {
+  height: 100%;
+  font-size: 28rpx;
+}
+.userMsg .right .msg {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  margin-top: 16rpx;
+}
+.userMsg .right .msg .msgIcon {
+  width: 24rpx;
+  height: 24rpx;
+  margin-right: 10rpx;
+}
+.userMsg .right .msg .txt {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  font-size: 24rpx;
+  color: #FD6A28;
+  font-weight: bold;
+}
+.bottomCtr {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+  background-color: #FFFFFF;
+}
+.bottomCtr .msg {
+  height: 48rpx;
+  background-color: rgba(255, 119, 1, 0.1);
+  line-height: 48rpx;
+  text-align: center;
+  color: #FD6A28;
+  font-size: 24rpx;
+}
+.bottomCtr .btnView {
+  height: 98rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+.bottomCtr .btnView .price {
+  margin-left: 52rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  color: #FD6A28;
+}
+.bottomCtr .btnView .price .l {
+  font-size: 32rpx;
+}
+.bottomCtr .btnView .price .r {
+  font-size: 44rpx;
+  margin-left: 6rpx;
+}
+.bottomCtr .btnView .btn {
+  background-color: #FF7701;
+  margin-left: auto;
+  width: 300rpx;
+  color: #FFFFFF;
+  line-height: 98rpx;
+  text-align: center;
+}
+

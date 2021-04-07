@@ -1,0 +1,18 @@
+page {
+  background-color: #fff;
+}
+.title {
+  text-align: center;
+  color: #000;
+  font-weight: bold;
+  font-size: 40rpx;
+  margin-bottom: 40rpx;
+}
+.richTxt {
+  padding: 40rpx;
+}
+.richTxt .msg {
+  margin-top: 8rpx;
+  font-size: 24rpx;
+}
+

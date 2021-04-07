@@ -1,0 +1,201 @@
+.header {
+  padding: 0 30rpx;
+  height: 98rpx;
+  background-color: #FFFFFF;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.header .returnIcon {
+  width: 16rpx;
+  height: 28rpx;
+}
+.header .headerTitle {
+  color: #222222;
+  margin-left: 24rpx;
+  font-size: 36rpx;
+  font-weight: bold;
+}
+.paddingView {
+  padding: 28rpx;
+}
+.paddingView .orderMsg {
+  background-color: #FFFFFF;
+  -webkit-border-radius: 12rpx;
+          border-radius: 12rpx;
+}
+.paddingView .orderMsg .title {
+  border-bottom: 1px solid #F7F8FA;
+  padding: 24rpx 28rpx;
+  font-size: 28rpx;
+  color: #222222;
+  font-weight: bold;
+}
+.paddingView .orderMsg .priceMsg {
+  height: 110rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  padding: 0 26rpx;
+  font-weight: bold;
+}
+.paddingView .orderMsg .priceMsg .left {
+  color: #999999;
+  font-size: 28rpx;
+}
+.paddingView .orderMsg .priceMsg .right {
+  color: #FD6A28;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.paddingView .orderMsg .priceMsg .right .unit {
+  font-size: 32rpx;
+}
+.paddingView .orderMsg .priceMsg .right .number {
+  font-size: 44rpx;
+  margin-left: 6rpx;
+}
+.paddingView .payType {
+  background-color: #FFFFFF;
+  margin-top: 28rpx;
+  -webkit-border-radius: 12rpx;
+          border-radius: 12rpx;
+}
+.paddingView .payType .item {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  padding: 0 28rpx;
+  height: 92rpx;
+  border-bottom: 1px solid #F7F8FA;
+}
+.paddingView .payType .item:last-child {
+  border-bottom: 0;
+}
+.paddingView .payType .item .typeIcon {
+  width: 40rpx;
+  height: 34.68rpx;
+}
+.paddingView .payType .item .typeText {
+  font-size: 32rpx;
+  font-weight: bold;
+  margin-left: 18rpx;
+  color: #222222;
+}
+.paddingView .payType .item .notSelect {
+  width: 40rpx;
+  height: 40rpx;
+  margin-left: auto;
+}
+.paddingView .payType .item .selected {
+  width: 40rpx;
+  height: 40rpx;
+  margin-left: auto;
+}
+.paddingView .payBtn {
+  margin-top: 72rpx;
+  background: -webkit-gradient(linear, left top, right top, from(#28A032), to(#50C414));
+  background: -webkit-linear-gradient(left, #28A032 0%, #50C414 100%);
+  background: linear-gradient(90deg, #28A032 0%, #50C414 100%);
+  -webkit-border-radius: 12rpx;
+          border-radius: 12rpx;
+  color: #FFFFFF;
+  height: 98rpx;
+  line-height: 98rpx;
+  text-align: center;
+  font-size: 36rpx;
+}
+.mask {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(34, 34, 34, 0.5);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.mask .whiteView {
+  background-color: #FFFFFF;
+  width: 592rpx;
+  height: 304rpx;
+  overflow: hidden;
+  -webkit-border-radius: 12rpx;
+          border-radius: 12rpx;
+}
+.mask .whiteView .maskTitle {
+  height: 160rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  font-size: 28rpx;
+  font-weight: bold;
+  color: #222222;
+}
+.mask .whiteView .maskBtn {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  padding: 0 70rpx;
+}
+.mask .whiteView .maskBtn .lBtn,
+.mask .whiteView .maskBtn .rBtn {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  width: 196rpx;
+  height: 88rpx;
+  font-size: 28rpx;
+  -webkit-border-radius: 12rpx;
+          border-radius: 12rpx;
+  font-weight: bold;
+}
+.mask .whiteView .maskBtn .lBtn {
+  border: 1px solid #28A032;
+  color: #28A032;
+}
+.mask .whiteView .maskBtn .rBtn {
+  background-color: #28A032;
+  color: #FFFFFF;
+}
+

@@ -1,0 +1,23 @@
+.list.data-v-e37e2d78 {
+  padding: 0 28rpx;
+}
+.list .list-item.data-v-e37e2d78 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  height: 104rpx;
+  border-bottom: 1px solid #E3E8EE;
+}
+.list .list-item .center.data-v-e37e2d78 {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  margin-left: 16rpx;
+}
+.list .list-item .right.data-v-e37e2d78 {
+  margin-right: auto;
+}
+

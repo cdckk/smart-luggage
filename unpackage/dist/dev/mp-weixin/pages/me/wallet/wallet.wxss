@@ -1,0 +1,33 @@
+.header {
+  padding: 48rpx 40rpx;
+  color: #FFFFFF;
+  height: 232rpx;
+  background: -webkit-gradient(linear, left top, right top, from(#28A032), to(#50C414));
+  background: -webkit-linear-gradient(left, #28A032 0%, #50C414 100%);
+  background: linear-gradient(90deg, #28A032 0%, #50C414 100%);
+}
+.header .txt {
+  font-size: 32rpx;
+}
+.header .price {
+  margin-top: 32rpx;
+  font-size: 50rpx;
+  font-weight: bold;
+}
+.list {
+  background-color: #FFFFFF;
+  margin-top: 14rpx;
+}
+.list .list-item:last-child {
+  border-bottom: none;
+}
+.list .list-item .left {
+  color: #222222;
+  font-weight: bold;
+  font-size: 32rpx;
+}
+.list .list-item .right {
+  width: 16rpx;
+  height: 32rpx;
+}
+

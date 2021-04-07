@@ -1,0 +1,55 @@
+.payOkView .payOkIcon {
+  width: 120rpx;
+  height: 120rpx;
+  display: block;
+  margin: 100rpx auto 0;
+}
+.payOkView .title {
+  text-align: center;
+  font-size: 36rpx;
+  color: #222222;
+  margin-top: 52rpx;
+}
+.payOkView .text {
+  text-align: center;
+  margin-top: 30rpx;
+  font-size: 26rpx;
+  color: #666666;
+}
+.payOkView .btnBox {
+  margin-top: 112rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-justify-content: space-around;
+          justify-content: space-around;
+}
+.payOkView .btnBox .l,
+.payOkView .btnBox .r {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  width: 196rpx;
+  height: 88rpx;
+  -webkit-border-radius: 12rpx;
+          border-radius: 12rpx;
+  font-size: 32rpx;
+}
+.payOkView .btnBox .l {
+  background-color: #D7F0E2;
+  color: #28A032;
+}
+.payOkView .btnBox .r {
+  background-color: #28A032;
+  color: #FFFFFF;
+}
+

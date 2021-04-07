@@ -1,0 +1,105 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "我要寄件"
+			}
+		},
+		{
+			"path": "pages/find/find",
+			"style": {
+				"navigationBarTitleText": "历史订单"
+			}
+		},
+		{
+			"path": "pages/me/me",
+			"style": {
+				"navigationBarTitleText": "行之以李"
+			}
+		}
+	    ,{
+            "path" : "pages/me/changSf/changSf",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "身份切换",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/me/aboutMe/aboutMe",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "关于我们",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/index/rule/rule",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "行李规则",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/index/readyPay/readyPay",
+            "style" :                                                                                    
+            {
+				"navigationStyle":"custom",
+                "navigationBarTitleText": "下单支付",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/index/readyPay/payOk/payOk",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "支付成功",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/me/wallet/wallet",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的钱包",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "行之以李",
+		"navigationBarBackgroundColor": "#ffffff",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+	    "color": "#7A7E83",
+	    "selectedColor": "#3cc51f",
+	    "borderStyle": "black",
+	    "backgroundColor": "#ffffff",
+	    "list": [{
+	        "pagePath": "pages/index/index",
+	        "iconPath": "static/tabbar/a.png",
+	        "selectedIconPath": "static/tabbar/aa.png",
+	        "text": "首页"
+	    }, {
+	        "pagePath": "pages/find/find",
+	        "iconPath": "static/tabbar/b.png",
+	        "selectedIconPath": "static/tabbar/bb.png",
+	        "text": "搜索"
+	    },{
+	        "pagePath": "pages/me/me",
+	        "iconPath": "static/tabbar/c.png",
+	        "selectedIconPath": "static/tabbar/cc.png",
+	        "text": "我的"
+	    }]
+	}
+}
